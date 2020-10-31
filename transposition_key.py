@@ -17,7 +17,7 @@ def decrypt_cipher(row , key ,cipher_text):
     
     return p_text
     
-    
+  #defining an encrypt func  
 def encrypt_cipher(len_key,key,row):
     t = 0
     for r in range(row):
